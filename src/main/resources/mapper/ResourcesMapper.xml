@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yyz.mapper.IResourcesMapper">
+  <resultMap id="BaseResultMap" type="com.yyz.pojo.Resources">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="key" jdbcType="VARCHAR" property="key" />
+    <result column="val" jdbcType="VARCHAR" property="val" />
+    <result column="sortnum" jdbcType="INTEGER" property="sortnum" />
+    <result column="status" jdbcType="SMALLINT" property="status" />
+  </resultMap>
+  
+
+  <select id="selectAllResources" resultMap="BaseResultMap">
+    select * from resources where status = 1 order by sortnum asc ;
+  </select>
+</mapper>
+
+
+
+
+
+
+
+
