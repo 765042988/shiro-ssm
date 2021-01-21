@@ -29,7 +29,7 @@
     <commons-io.version>1.3.2</commons-io.version>
     <common-fileupload.version>1.3.1</common-fileupload.version>
     <commons-net.version>3.3</commons-net.version>
-    <jackson.version>2.4.2</jackson.version>
+    <jackson.version>2.9.10.7</jackson.version>
     <mail.version>1.4.7</mail.version>
 
     <!--Shiro 版本号 -->
