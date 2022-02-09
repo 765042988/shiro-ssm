@@ -33,7 +33,7 @@
     <mail.version>1.4.7</mail.version>
 
     <!--Shiro 版本号 -->
-    <shiro.version>1.3.2</shiro.version>
+    <shiro.version>1.7.1</shiro.version>
 
     <!--solr j -->
     <solrj.version>7.1.0</solrj.version>
